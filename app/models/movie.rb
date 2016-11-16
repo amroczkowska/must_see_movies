@@ -5,6 +5,8 @@ class Movie < ApplicationRecord
 
   # Validations
 
+  validates :title, :uniqueness => { :scope => [:year] }
+
   validates :title, :presence => true
 
   validates :year, :presence => true
