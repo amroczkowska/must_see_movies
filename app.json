@@ -1,0 +1,1 @@
+{"name":"Must See Movies","repository":"https://github.com/amroczkowska/must_see_movies","env":{"CLOUDINARY_CLOUD_NAME":{"required":true},"CLOUDINARY_API_KEY":{"required":true},"CLOUDINARY_API_SECRET":{"required":true},"ROLLBAR_ACCESS_TOKEN":{"required":true}}}
